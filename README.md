@@ -9,7 +9,7 @@ To run the code, setup using following commands in a terminal(Linux/Mac)<sup>**<
 * `git clone https://github.com/scottydelta/fb_data_scraper.git`
 * `cd fb_data_scraper`
 * `virtualenv .env`
-* `source env/bin/activate`
+* `source .env/bin/activate`
 * `cd src`
 * `pip install -r requirements`
 
