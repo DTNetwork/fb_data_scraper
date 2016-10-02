@@ -1,6 +1,6 @@
 # FB Data Scraper
 
-Can be used to get Posts and Comments using FB API.
+Can be used to get Posts and Comments using FB API. Integrate [`fb_token_generator`](https://github.com/scottydelta/fb_token_generator) to get new access token every hour and use it to get fb data continously without having to manually replace token.
 
 ## Setup
 
