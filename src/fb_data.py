@@ -356,8 +356,6 @@ class parsePost():
 
     def save_scraped_comments (self):
 
-        import pdb; pdb.set_trace()
-
         post_id = self.get_post_id(self.get_post_date())
         candidate = self.ele
         noOfComments = len(self.driver.find_element_by_id(self.anID).find_elements_by_class_name("UFIComment"))
@@ -387,10 +385,6 @@ class parsePost():
     def get_no_of_comments (self):
 
         LOAD_COMMENTS_WAIT_PERIOD = 3
-
-        print("IN GET COMMENTS: ID - ", self.anID)
-        if "mall_post_845632185635942:6:0" == self.anID:
-            import pdb; pdb.set_trace()
 
         try: 
           # self.driver.find_element_by_id(self.anID).find_element_by_partial_link_text("more comments").click()
