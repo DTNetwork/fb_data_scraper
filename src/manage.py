@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from flask import Flask
-from flask.ext.script import Manager, Server
+from flask_script import Manager, Server
 from models import db, Posts, Comments
 
 app = Flask(__name__)
